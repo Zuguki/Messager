@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Messager.Infastracture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79a0e5d74235291130b4515d1fb4f901cd802461")]
 [assembly: System.Reflection.AssemblyProductAttribute("Messager.Infastracture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Messager.Infastracture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

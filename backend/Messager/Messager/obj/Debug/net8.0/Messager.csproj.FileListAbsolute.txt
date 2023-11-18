@@ -46,3 +46,13 @@ D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Seril
 D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
 D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Serilog.Sinks.File.dll
 D:\Computer Science\C#\Messager\backend\Messager\Messager\obj\Debug\net8.0\Messager.sourcelink.json
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Messager.Domain.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Messager.Infastracture.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Messager.Infastracture.pdb
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Messager.Domain.pdb
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Npgsql.dll
+D:\Computer Science\C#\Messager\backend\Messager\Messager\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
