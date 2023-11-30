@@ -1,6 +1,6 @@
 using System;
-using Messager.DataBase.EF;
-using Messager.DataBase.Models;
+using Messager.Infastracture.DataBase.EF;
+using Messager.Infastracture.DataBase.Models;
 using Messager.Libs.Serilog;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;

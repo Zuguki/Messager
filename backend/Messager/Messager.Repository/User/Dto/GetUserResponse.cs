@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Messager.Domain;
+namespace Messager.Infastracture.User.Dto;
 
-public class User
+public class GetUserResponse
 {
     public Guid UserId { get; set; }
     
@@ -11,7 +11,5 @@ public class User
     
     public string? Image { get; set; }
 
-    public List<User>? Friends { get; set; }
-
-    public List<Chat.Chat>? Chats { get; set; }
+    public List<Domain.User>? Friends { get; set; }
 }

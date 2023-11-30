@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace Messager.DataBase.Models;
+namespace Messager.Infastracture.DataBase.Models;
 
 public class UserModel : IdentityUser
 {

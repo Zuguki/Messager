@@ -1,9 +1,9 @@
-using Messager.DataBase.Models;
+using Messager.Infastracture.DataBase.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace Messager.DataBase.EF;
+namespace Messager.Infastracture.DataBase.EF;
 
 public class DataContext : IdentityDbContext<UserModel>
 {
