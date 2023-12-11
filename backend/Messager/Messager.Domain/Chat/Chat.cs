@@ -1,12 +1,15 @@
+using System;
 using System.Collections.Generic;
 
 namespace Messager.Domain.Chat;
 
-public abstract class Chat
+public class Chat
 {
-    public string Name { get; set; } = null!;
+    public Guid Id { get; init; }
     
-    public abstract List<User> Subscribers { get; set; }
+    public string Name { get; set; } = null!;
+
+    public List<User> Subscribers { get; set; } = new();
 
     public List<Message> Messages { get; set; } = new();
 }
