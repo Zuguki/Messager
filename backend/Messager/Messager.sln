@@ -6,7 +6,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.Domain", "Messager
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.Repository", "Messager.Repository\Messager.Repository.csproj", "{96D7CF5B-1BC0-4991-909E-B3C17C716CE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.Services", "Messager.Services\Messager.Services.csproj", "{91DB7830-8FC9-4C8F-B52E-D25AB4B57121}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.Service", "Messager.Service\Messager.Service.csproj", "{91DB7830-8FC9-4C8F-B52E-D25AB4B57121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Messager.Test", "Messager.Test\Messager.Test.csproj", "{D4938222-C43A-4AF4-AFCF-DD6F854254AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +32,9 @@ Global
 		{91DB7830-8FC9-4C8F-B52E-D25AB4B57121}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91DB7830-8FC9-4C8F-B52E-D25AB4B57121}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91DB7830-8FC9-4C8F-B52E-D25AB4B57121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4938222-C43A-4AF4-AFCF-DD6F854254AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4938222-C43A-4AF4-AFCF-DD6F854254AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4938222-C43A-4AF4-AFCF-DD6F854254AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4938222-C43A-4AF4-AFCF-DD6F854254AC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
