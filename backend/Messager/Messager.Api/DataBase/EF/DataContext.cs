@@ -10,6 +10,7 @@ namespace Messager.DataBase.EF;
 public class DataContext : IdentityDbContext<UserModel, IdentityRole<Guid>, Guid>
 {
     public DbSet<ChatModel> Chats { get; set; } = null!;
+    public DbSet<MessageModel> Messages { get; set; } = null!;
     
     private readonly IConfiguration _configuration = null!;
     

@@ -1,10 +1,11 @@
+using System;
 using System.Threading.Tasks;
-using FluentResults;
-using Messager.Infastracture.Chat.Dto;
 
 namespace Messager.Infastracture.Chat;
 
-public interface IChatRepository
+public interface IChatRepository : IRepository
 {
-    Task<Result<GetChatByIdDto>> GetChatByIdAsync();
+    Task<Domain.Chat.Chat> GetByIdAsync(Guid id);
+
+    Task CreateAsync(Domain.Chat.Chat chat);
 }

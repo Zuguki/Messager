@@ -1,3 +1,4 @@
+using System;
 using Messager.DataBase.EF;
 using Messager.DataBase.Models;
 using Messager.Extensions;
@@ -18,6 +19,7 @@ builder.Services.AddDbContext<DataContext>();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddIdentityCore<UserModel>()
     .AddEntityFrameworkStores<DataContext>()
