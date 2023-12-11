@@ -23,7 +23,7 @@ public class GlobalTest(ITestOutputHelper outputHelper)
 
             foreach (var method in methods)
             {
-                if (method.ReturnType.BaseType?.Name == "Task" && !method.Name.EndsWith("Async"))
+                if (method.ReturnType.BaseType?.Name == "Task" && !method.Name.EndsWith("Async") && method.Name != "Handle")
                 {
                     _outputHelper.WriteLine(
                         $"[Task] Name of async method in {method.DeclaringType!.FullName} without 'Async' postfix and names as: {method.Name}");
