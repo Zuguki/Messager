@@ -7,25 +7,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Messager.DataBase.EF.Repositories;
 
-public class UserRepository : IUserRepository
+public class UserRepository : BaseRepository, IUserRepository
 {
-    private DataContext _context;
-    private IMapper _mapper;
+    private readonly DataContext _dbContext;
+    private readonly IMapper _mapper;
 
-    public UserRepository(DataContext context, IMapper mapper)
+    public UserRepository(DataContext dbContext, IMapper mapper) : base(dbContext)
     {
-        _context = context;
+        _dbContext = dbContext;
         _mapper = mapper;
-    }
-
-    public async Task SaveChangesAsync()
-    {
-        await _context.SaveChangesAsync();
     }
 
     public async Task<User?> GetByIdAsync(Guid id)
     {
-        var userModel = await _context.Users.FirstOrDefaultAsync(model => model.Id == id);
+        var userModel = await _dbContext.Users.FirstOrDefaultAsync(model => model.Id == id);
         if (userModel is null)
             return null;
 
